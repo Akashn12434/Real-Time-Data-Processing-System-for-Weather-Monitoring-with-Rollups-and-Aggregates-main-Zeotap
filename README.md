@@ -1,19 +1,26 @@
 ### Real-Time Weather Monitoring and Data Processing System
+
 ### Table of Contents
 Introduction
+
 Goal
+
 Key Features
+
 Project Structure
+
 Setup Guide
-Repository Cloning
-Virtual Environment Setup
-Environment Activation
-Dependency Installation
+
 API Key Configuration
+
 Running the System
+
 Navbar Details
+
 Additional Features
+
 Testing
+
 ### Introduction
 This project implements a Real-Time Weather Monitoring System that processes weather data and provides analytical insights through summaries and aggregates. The system integrates with the OpenWeatherMap API to gather live weather data for various major cities in India.
 
@@ -24,18 +31,29 @@ The primary goal of this system is to periodically collect weather data, compute
 Live Weather Data Fetching: The system pulls updated weather data every 5 minutes for these Indian metro cities:
 
 Delhi
+
 Mumbai
+
 Chennai
+
 Bengaluru
+
 Kolkata
+
 Hyderabad
 
 # Data Processing:
+
 Converts temperature readings from Kelvin to Celsius.
+
 Produces daily weather summaries, including:
+
 Average temperature
+
 Maximum and minimum temperature
+
 Dominant weather conditions
+
 Alert System: Users can configure temperature thresholds or specific weather conditions to trigger alerts.
 
 # Data Visualization: Displays weather summaries, historical data trends, and alerts graphically.
@@ -85,9 +103,13 @@ Navbar Details
 ### The navbar provides easy navigation throughout the system:
 
 Home: Redirects to the main weather dashboard.
+
 Live Weather: Shows up-to-the-minute weather data.
+
 Summary: Displays daily weather reports.
+
 Visualization: Offers graphical representations of weather data.
+
 Feedback: A section dedicated to user feedback.
 
 ### Additional Features
@@ -96,8 +118,13 @@ Forecasting: Extend the application to retrieve weather forecasts and generate s
 
 ### Testing
 System Initialization: Verify that the system starts correctly and connects to the OpenWeatherMap API with a valid API key.
+
 Weather Data Fetching: Simulate API calls at configurable intervals to ensure correct retrieval and parsing of weather data.
+
 Temperature Conversion: Test that temperature conversions from Kelvin to Celsius (or Fahrenheit) work as intended.
+
 Daily Summary Calculations: Simulate multiple days of weather data and verify that the summaries are calculated correctly.
+
 Alerting System: Configure user-defined thresholds and verify that alerts are triggered when conditions are met.
+
 To run unit tests, navigate to the tests directory.
