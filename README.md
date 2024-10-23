@@ -51,9 +51,8 @@ Alert System: Users can configure temperature thresholds or specific weather con
 # Setup Guide
 1. Repository Cloning
 
-git clone https://github.com/Akashn12434/Real-Time Weather Monitoring and Data Processing System.git
-cd Real-Time Weather Monitoring and Data Processing System
-
+git clone https://github.com/Akashn12434/Real-Time-Data-Processing-System-for-Weather-Monitoring-with-Rollups-and-Aggregates-main-Zeotap.git
+cd https://github.com/Akashn12434/Real-Time-Data-Processing-System-for-Weather-Monitoring-with-Rollups-and-Aggregates-main-Zeotap
 2. Virtual Environment Setup
 python -m venv venv
 
