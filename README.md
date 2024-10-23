@@ -50,8 +50,7 @@ Alert System: Users can configure temperature thresholds or specific weather con
 
 # Setup Guide
 1. Repository Cloning
-bash
-Copy code
+
 git clone https://github.com/Akashn12434/Real-Time Weather Monitoring and Data Processing System.git
 cd Real-Time Weather Monitoring and Data Processing System
 
@@ -63,9 +62,11 @@ python -m venv venv
 For Windows:
 venv\Scripts\activate
 4. Dependency Installation
-
-
 pip install -r requirements.txt
+
+5. Run
+python app.py
+Once running, you can access the application at http://localhost:5000 through your web browser.
 # API Key Configuration
 To interact with the OpenWeatherMap API, follow these steps to get an API key:
 
