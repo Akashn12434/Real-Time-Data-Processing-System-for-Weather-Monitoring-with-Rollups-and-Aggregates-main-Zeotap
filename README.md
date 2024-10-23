@@ -56,7 +56,13 @@ Dominant weather conditions
 
 Alert System: Users can configure temperature thresholds or specific weather conditions to trigger alerts.
 
-# Data Visualization: Displays weather summaries, historical data trends, and alerts graphically.
+# Data Visualization: 
+
+Displays weather summaries
+
+historical data trends
+
+alerts graphically.
 
 # Project Structure
 1. app.py: The main application file responsible for routing and data handling.
@@ -70,34 +76,47 @@ Alert System: Users can configure temperature thresholds or specific weather con
 1. Repository Cloning
 
 git clone https://github.com/Akashn12434/Real-Time-Data-Processing-System-for-Weather-Monitoring-with-Rollups-and-Aggregates-main-Zeotap.git
+
 cd https://github.com/Akashn12434/Real-Time-Data-Processing-System-for-Weather-Monitoring-with-Rollups-and-Aggregates-main-Zeotap
+
 2. Virtual Environment Setup
+
 python -m venv venv
 
 3. Environment Activation
 
-For Windows:
-venv\Scripts\activate
+For Windows:venv\Scripts\activate
+
 4. Dependency Installation
+
 pip install -r requirements.txt
 
 5. Run
+   
 python app.py
+
 Once running, you can access the application at http://localhost:5000 through your web browser.
+
 # API Key Configuration
+
 To interact with the OpenWeatherMap API, follow these steps to get an API key:
 
 Go to OpenWeatherMap.
+
 Sign up for a free API key.
+
 Store the API key securely and reference it in the application code or as an environment variable.
-Running the System
-Ensure all required dependencies are installed.
+
+Running the System: Ensure all required dependencies are installed.
+
 Insert your API key into the relevant section of the application code or as an environment variable.
 
 ### Launch the application with the command:
 
 python app.py
+
 Once running, you can access the application at http://localhost:5000 through your web browser.
+
 Navbar Details
 
 ### The navbar provides easy navigation throughout the system:
